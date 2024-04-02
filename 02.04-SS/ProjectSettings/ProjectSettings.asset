@@ -763,9 +763,12 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
+  cloudProjectId: ece87803-e12e-4ea8-a48a-37858bc52ec0
   cloudProjectId: 31885827-0ef0-4cc1-8546-5b7e8af015a3
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
+  projectName: 02.04-SS
+  organizationId: d-golubeva
   projectName: 02.04-SS
   organizationId: evasasvari
   cloudEnabled: 0
