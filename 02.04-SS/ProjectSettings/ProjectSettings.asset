@@ -704,11 +704,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 367c73cf-1902-4f42-a88c-1addbcb02be4
+  cloudProjectId: ece87803-e12e-4ea8-a48a-37858bc52ec0
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: 02.04-SS
-  organizationId: olakupczyk
+  organizationId: d-golubeva
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
