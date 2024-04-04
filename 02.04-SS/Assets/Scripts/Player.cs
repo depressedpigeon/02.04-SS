@@ -5,13 +5,19 @@ public class Player : MonoBehaviour
     public float moveSpeed = 5f;
     private Animator animator;
 
+    public AudioClip audioClip;
+    private AudioSource audioSource;
+
     [Header("-- Private references --")]
     [SerializeField] private int coinsCollected = 0;
 
     void Start()
     {
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
+        audioSource.clip = audioClip;
     }
+
 
     void Update()
     {
@@ -68,6 +74,11 @@ public class Player : MonoBehaviour
         {
             coinsCollected += 1;
             Destroy(coll.gameObject);
+        }
+
+        if (coll.gameObject.tag.Equals("Coin"))
+        {
+            audioSource.Play();
         }
     }
 
