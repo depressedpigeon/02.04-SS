@@ -8,7 +8,7 @@ public class LoadScenes : MonoBehaviour
 
     public void Load(int sceneIndex)
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(sceneIndex);
     }
     
     // Start is called before the first frame update
